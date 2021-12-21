@@ -1,0 +1,8 @@
+form_example_cdp_survey.form:
+ path: '/form/surveycdp'
+ defaults:
+   _title: 'Form example survey'
+   _form: '\Drupal\form_example_cdp_survey\Form\FormSurvey'
+ requirements:
+   _permission: 'access content'
+ 
